@@ -12,9 +12,10 @@ Openai四月份的更新，导致credit_grants接口只能使用浏览器token�
 1.下载程序到服务器
 ```shell
 wget https://github.com/LaoYutang/openai-balance/releases/download/release/openai-balance-linux-amd64 -O openai-balance
+chmod +x openai-balance
 ```
 2.使用获取余额
 ```shell
-openai-balance -k $你的Api Key
+./openai-balance -k $你的Api Key
 ```
 > 另外可以是用 -p 添加网络代理地址 例子：-p http://user@127.0.0.1:8888
